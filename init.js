@@ -9,10 +9,10 @@ const db = new sqlite3.Database( 'database.db', (err)=>{
         )
     `, (err)=>{
         if ( err ){
-            db.close();
-            console.log( err );
+            console.log( "Error creating table: ", err );
+        } else {
+            console.log( "Table succesfully created." );
         }
-        console.log("Table succesfully created.");
         db.close();
     });
 });
