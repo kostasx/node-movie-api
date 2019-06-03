@@ -12,6 +12,8 @@ Simple Node.JS Movies API
 
 ## Inspired by
 
+- [A two part Flask + React series](https://twitter.com/pretty_printed/status/1126491205083078657)
+
 - [Flask Movie API](https://www.youtube.com/watch?v=Urx8Kj00zsI)
 - [Flask Movie API Code](https://github.com/PrettyPrinted/flask-movie-api)
 - [React Movie API](https://www.youtube.com/watch?v=06pWsB_hoD4)
